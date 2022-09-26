@@ -1,0 +1,155 @@
+/*Corps*/
+body{
+    width: 75%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    background-color: azure;
+}
+.site {
+    display: flex;
+    min-height: 100%;
+    flex-direction:column;
+}
+
+.contenu {
+    flex: 1;
+}
+
+/*Corps*/
+
+/*En-tête ET Menu*/
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    padding-left: 1%;
+    text-align: center;
+}
+header h2, h3, h4 {
+    padding-left: 3%;
+    text-align: center;
+}
+
+header nav {
+   height: 25px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(242, 232, 232)
+}
+
+nav {
+    padding-left: 1%;
+    text-align: center;
+    font-size: smaller;
+}
+
+.menu {
+   list-style-type: none; 
+   display: inline-block;
+}
+
+.menu li {
+    float: left;
+    color: white;
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    background: rgba(12, 53, 238, 0.7);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.menu li:hover {
+    background: black;
+}
+
+/*En-tête ET Menu*/
+
+/*Section Centrale*/
+
+section {
+    width: 50%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 20px;
+    margin: auto;
+    background-color: azure;
+}
+
+section article h2 h4 {
+    padding-left: 2%;
+    background-color:azure;
+    color:black ;
+    margin: auto;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+
+} 
+
+
+section article p {
+    padding-left: 8%;
+    text-align: justify;
+}
+section figure {
+    margin-left: 22%;
+}
+section caption {
+    margin: auto;
+}
+
+/*Section Centrale*/
+
+/*Image*/
+
+.image {
+    vertical-align: auto;
+    text-align: center;
+    display: table-cell;
+    padding-left: 8%;
+}
+.image h2 {
+    padding: 40px;
+    color:  black;
+    text-align: center;
+} 
+
+/* Pied de page */
+
+html, body {
+    height: 100%
+}
+
+footer {
+    background: azure;
+    margin-left: 1%;
+    width: 100%;
+    /*padding:8px 0;*/
+    text-align: center;
+}
+
+footer ul{
+    margin: auto;
+}
+
+footer li {
+    display:inline-block;
+    list-style-type: none;
+    line-height: 7px;
+    margin-right: 22px;
+    padding: 4px;
+}
+
+footer li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+#forme {
+    width: 100px;
+    height: 40px;
+}
+
