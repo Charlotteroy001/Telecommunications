@@ -67,7 +67,49 @@ nav {
 }
 
 /*En-tête ET Menu*/
+/*FAQ*/
+section article div {
+    margin: center;
 
+}
+
+div details {
+    margin-left: 30px;
+    width: 700px;
+}
+
+.contenu h4 {
+    padding-bottom: 5px;
+    color:  rgb(0, 0, 0);
+    text-align: center;
+}
+details {
+    background-color: rgba(107, 130, 230, 0.7);;
+    color:black;
+    font-size: 1 rem;
+}
+  
+summary {
+    padding: 1.5em 1.5em ;
+    margin-left: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;  
+    transition: height 1s ease;
+}
+  
+summary:after {
+    content: "\002B";
+}
+
+  
+details[open] summary:after {
+    content: "\00D7";
+}
+  
+details[open] div {
+    padding: 1em 1.5em;
+}
 /*Section Centrale*/
 
 section {
